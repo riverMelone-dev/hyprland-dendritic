@@ -1,0 +1,1 @@
+hl.bind("SUPER + v", hl.dsp.exec.cmd("foot"))
