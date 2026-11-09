@@ -1,1 +1,1 @@
-hl.bind("CTRL + v", hl.dsp.exec.cmd("foot"))
+hl.bind("SUPER + v", hl.dsp.exec.cmd("foot"))
