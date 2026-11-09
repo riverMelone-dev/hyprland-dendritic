@@ -9,4 +9,10 @@ if handle then
     end
 end
 
-pcall(dofile, os.getenv("HYPRLAND_ROOT") .. "/autoload.lua")
+HyprRoot = os.getenv("HOME") .. "/.config/hypr"
+
+if os.getenv("HYPRLAND_ROOT") then
+	HyprRoot = os.getenv("HYPRLAND_ROOT")
+end
+
+pcall(dofile, HyprRoot .. "/autoload.lua")
